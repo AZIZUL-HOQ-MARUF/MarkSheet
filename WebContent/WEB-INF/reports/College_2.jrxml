@@ -1,0 +1,2378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="College" language="groovy" printOrder="Horizontal" pageWidth="585" pageHeight="830" columnWidth="555" leftMargin="15" rightMargin="15" topMargin="15" bottomMargin="15" isFloatColumnFooter="true" isIgnorePagination="true" uuid="52982d20-8439-4247-bb01-98cc12bbcfef">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="617"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#FFFFF0">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#FFFFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#FFFFF0">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#FFFFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#FFFFF0">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#FFFFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#FFFFF0">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#FFFFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Table Dataset 1" uuid="2e46c5c5-4389-4f50-8624-262bcbb7bdf6"/>
+	<subDataset name="New Dataset 1" uuid="cc2ed0f3-7a6b-4acd-8656-93c1ffef08d6">
+		<queryString language="SQL">
+			<![CDATA[select * from `default`]]>
+		</queryString>
+		<field name="Range of mark" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="grade" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="point" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="default dataset" uuid="910ef9a1-84df-4d51-a5f6-e63acc9c6702">
+		<queryString language="SQL">
+			<![CDATA[select * from `default`]]>
+		</queryString>
+		<field name="Range of mark" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="grade" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="point" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="subjects" uuid="2ce4b615-dfe7-4671-95a8-61db89009b75">
+		<queryString language="SQL">
+			<![CDATA[SELECT subject_I,subject_I_CH,subject_I_GL,subject_I_GP FROM student_markshit WHERE Stu_Name= "maruf"]]>
+		</queryString>
+		<field name="subject_I" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="subject_I_CH" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="subject_I_GL" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="subject_I_GP" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="dataset1" uuid="8df0e380-c9ea-409b-abfa-72c1079c4632"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["E:\\report\\"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ID" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[select * from student_markshit where id=$P{ID}]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Stu_Name" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="exam_date" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="father_Name" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Grade" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="mother_Name" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="reg" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="roll" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="serial" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="sessions" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_I" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_II" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_III" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_III_CH" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_III_GL" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_III_GP" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_II_CH" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_II_GL" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_II_GP" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IV" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IV_CH" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IV_GL" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IV_GP" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IX" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IX_CH" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IX_GL" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IX_GP" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_I_CH" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_I_GL" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_I_GP" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_V" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VI" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VII" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VIII" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VIII_CH" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VIII_GL" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VIII_GP" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VII_CH" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VII_GL" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VII_GP" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VI_CH" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VI_GL" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VI_GP" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_V_CH" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_V_GL" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_V_GP" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_X" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_X_CH" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_X_GL" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_X_GP" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="exam_Name" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Semester" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_III_SC" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_II_SC" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IV_SC" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IX_SC" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_I_SC" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VIII_SC" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VII_SC" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VI_SC" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_V_SC" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_X_SC" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="reportId" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_III_FM" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_II_FM" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IV_FM" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IX_FM" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_I_FM" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VIII_FM" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VII_FM" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VI_FM" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_V_FM" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_X_FM" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_III_OB" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_II_OB" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IV_OB" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_IX_OB" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_I_OB" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VIII_OB" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VII_OB" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_VI_OB" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_V_OB" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subject_X_OB" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Year" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Type" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Faculties" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band height="800">
+			<rectangle>
+				<reportElement x="0" y="190" width="555" height="610" uuid="e98a24f4-c64c-483b-986e-fac13c168746"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Solid"/>
+				</graphicElement>
+			</rectangle>
+			<frame>
+				<reportElement positionType="Float" mode="Opaque" x="2" y="194" width="552" height="606" backcolor="#FFF9F0" uuid="1bd3806a-59de-47ff-9a1d-73b672120a23"/>
+				<image>
+					<reportElement x="70" y="10" width="106" height="58" uuid="84bcaaca-347d-4528-b8ef-00dd95deea87"/>
+					<imageExpression><![CDATA[this.getClass().getResourceAsStream("../reports/feni_poly_logo.png")]]></imageExpression>
+				</image>
+			</frame>
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="165" uuid="d8639bb8-2bf3-40a4-9663-92c430b7b370"/>
+			</rectangle>
+			<frame>
+				<reportElement mode="Transparent" x="0" y="0" width="555" height="165" uuid="6f2740e4-23d6-4f34-8b02-e41ae566136c"/>
+			</frame>
+			<line>
+				<reportElement x="-19" y="176" width="587" height="1" backcolor="#000000" uuid="89745ef5-8115-4d85-a600-d15ef046c0e2"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<image>
+				<reportElement x="0" y="190" width="565" height="405" uuid="f1835325-98d5-49e0-98bd-bf5f96eff3c4"/>
+				<imageExpression><![CDATA[this.getClass().getResourceAsStream("../reports/border1.png")]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="0" y="595" width="556" height="205" uuid="a0bf2d9a-fbec-4cc7-b354-2940f6732476"/>
+				<imageExpression><![CDATA[this.getClass().getResourceAsStream("../reports/border2.png")]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<detail>
+		<band height="800" splitType="Stretch">
+			<staticText>
+				<reportElement positionType="Float" x="125" y="0" width="335" height="31" uuid="9860a36f-b888-4eaf-bc80-d7767473e78d"/>
+				<textElement textAlignment="Center">
+					<font size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FENI POLYTECHNIC INSTITUTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="9" width="45" height="20" uuid="67e6f267-7aae-4952-b39a-507101b037f1"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[SI NO-]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="49" y="11" width="77" height="20" forecolor="#FF466D" uuid="1d2d03ed-8c49-4f92-b40c-036e44c994af"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{serial}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="51" width="100" height="20" uuid="9f880953-bdfe-4450-95c3-68dfff6add6f"/>
+				<textElement textAlignment="Right">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Student’s Name :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="400" y="51" width="39" height="20" uuid="e947c0cd-27e2-4149-9966-0407c0ba2af3"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[GPA :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="226" y="77" width="38" height="20" uuid="729d5a31-74ad-4c84-8fb1-08458a27fcaa"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Reg. :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="375" y="77" width="65" height="20" uuid="a0dd9af4-d353-488f-8d01-a669e461cd64"/>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Session :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="77" width="100" height="20" uuid="f12bdf09-02cc-423c-b661-2822d98b0011"/>
+				<textElement textAlignment="Right">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Board Roll :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="111" y="51" width="274" height="20" uuid="89218a17-6d0b-47d4-bee5-aa873845b1eb"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Stu_Name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="111" y="77" width="102" height="20" uuid="97df64a0-64f2-4462-a245-157795705d9c"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{roll}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="264" y="77" width="100" height="20" uuid="04e6357f-3de6-43b8-8951-4fccae90bca6"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{reg}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="77" width="99" height="20" uuid="dc6d890c-84d7-477f-98ab-7ad27355baf3"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sessions}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="51" width="95" height="20" uuid="e9f540b6-eff3-4a4d-9d63-cbe40f577e57"/>
+				<textElement textAlignment="Left">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Grade}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="32" y="136" width="125" height="20" uuid="a75a4c84-9c75-4c72-a3dd-26ae3ae9c73f"/>
+				<textElement textAlignment="Center">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Student’s Signature]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="224" y="136" width="140" height="20" uuid="3842bf53-0691-479f-9a09-dab28765e6b5"/>
+				<textElement textAlignment="Center">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Head of the Department	]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="418" y="136" width="100" height="20" uuid="2d520257-2d51-45d9-86a6-ba6f357e6bca"/>
+				<textElement textAlignment="Center">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Principal]]></text>
+			</staticText>
+			<line>
+				<reportElement x="35" y="132" width="120" height="1" uuid="5e1c0c3f-3ae0-470b-ba40-af000abfd42f"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="227" y="131" width="135" height="1" uuid="15b3ba9c-6ccd-4956-9c33-e755dc873242"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="439" y="130" width="59" height="1" uuid="12b158cf-d4ed-457d-9ff2-f4a908ee7b77"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement positionType="Float" x="111" y="217" width="335" height="28" uuid="5806dff4-4d2f-49dd-8b07-d103de18f538"/>
+				<textElement textAlignment="Center">
+					<font size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FENI POLYTECHNIC INSTITUTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="270" width="48" height="20" uuid="a02f426d-ea1c-4436-a04b-9ac79b4bac65"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[SI NO-]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="62" y="270" width="162" height="20" forecolor="#FF466D" uuid="884ea3d0-2287-43c4-b33a-84326e645ade"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{serial}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="154" y="285" width="173" height="20" uuid="95d90352-733d-47be-923f-05c27045c485"/>
+				<textElement textAlignment="Left">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DIPLOMA-IN-ENGINEERING]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="327" y="285" width="100" height="20" uuid="8c69cba4-9f42-49f2-849b-8cef6c8e32dd"/>
+				<textElement textAlignment="Left">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[(Duration : 4-Year)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="155" y="302" width="257" height="20" uuid="60ab6059-b84e-48b8-be78-2ed90c089e78"/>
+				<textElement textAlignment="Center">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{exam_Name}+","+$F{Year}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="190" y="315" width="104" height="20" uuid="afe2f60a-5066-4690-9c77-e369e7126a29"/>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[(Held in the Month of]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="296" y="315" width="100" height="20" uuid="0941a9d8-9665-44b1-816c-8bc94fa9d498"/>
+				<textElement textAlignment="Left">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{exam_date}+","+$F{Year}+")"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="359" width="71" height="16" uuid="17372b46-7cba-46e4-a3f0-4d9b161a5134"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Technology]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="108" y="359" width="6" height="16" uuid="5b4bc15d-aa2c-4683-87fb-cf52dfd906d9"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="125" y="444" width="95" height="16" uuid="dcf45e08-67d6-4f50-a294-d850a3d23169"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{reg}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="427" width="80" height="16" uuid="7af1c010-1fa7-4ac0-ac85-b74d72e719e4"/>
+				<textElement textAlignment="Left">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Roll]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="376" width="73" height="16" uuid="45a84774-94b7-404d-a190-fd215e94dd15"/>
+				<textElement textAlignment="Left">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Name]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="275" y="444" width="105" height="16" uuid="dfb8d5c1-034a-49a6-a0ae-bcb3220b9fb1"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sessions}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="125" y="376" width="244" height="16" isPrintWhenDetailOverflows="true" uuid="28498205-670d-4716-9940-2a74f2ff34a8"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Stu_Name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="444" width="79" height="16" uuid="8809dd7a-48ed-41af-8fda-b33b8a83fc4c"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Registration]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="219" y="444" width="46" height="16" uuid="e3d54b80-02bf-4242-9cbf-02fb67fdea14"/>
+				<textElement textAlignment="Left">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Session ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="125" y="427" width="123" height="16" uuid="db6f3d15-bc83-430c-b67a-9d75b8c7b2e7"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{roll}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="108" y="375" width="6" height="16" uuid="60ea544a-18f0-4522-b08d-454b003fc475"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="108" y="427" width="6" height="16" uuid="be471329-9f63-4e17-a08d-834274ae28e6"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="108" y="444" width="6" height="16" uuid="09e01a00-8bf1-4de6-bab9-13803f5d7a2d"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="108" y="393" width="6" height="16" uuid="9a41d82e-0e75-4378-bd56-c61b5349f733"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="410" width="79" height="16" uuid="65493832-8af8-478a-ab9a-87b0536fdc5f"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Mother's Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="108" y="410" width="6" height="16" uuid="e3b9b5e2-ae5d-4948-9c73-7cdaabae0789"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="393" width="80" height="16" uuid="24936f57-96e3-46b1-90ae-4d762a821fb1"/>
+				<textElement textAlignment="Left">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Father's Name]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="125" y="393" width="244" height="16" uuid="4b158f85-ef6a-4294-8617-b7dbd97b05f4"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{father_Name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="125" y="410" width="244" height="16" uuid="bdd17993-ef33-45f6-8760-181d4bf42248"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{mother_Name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="265" y="444" width="6" height="16" uuid="60ce03bb-da99-43a9-b74f-aaa569859292"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="461" width="80" height="16" uuid="5e3dac05-6ff6-4bd5-90af-06794ebdf707"/>
+				<textElement textAlignment="Left">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Institute Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="108" y="461" width="6" height="16" uuid="49814443-1643-461f-b543-eee41a5f8f80"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="125" y="461" width="202" height="16" uuid="c2993fd5-a46c-4467-a587-be4921edd6d4"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[69015 - Feni Polytechnic Institute, Feni]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement key="table 3" style="table 3" x="369" y="342" width="60" height="65" uuid="ac807666-91bd-4797-8cc7-f6089c370254"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="default dataset" uuid="fc52f3c4-3b52-4d5e-aacf-013e02876c69">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="66" uuid="b5659eb0-376a-43d4-aaf4-3ce174bd8026">
+						<jr:columnHeader style="table 3_CH" height="14" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="66" height="14" backcolor="#FFF9F0" uuid="2654e0a7-971e-4ecd-9fa5-364327ca5e6d"/>
+								<textElement textAlignment="Center">
+									<font size="8"/>
+								</textElement>
+								<text><![CDATA[Range of Mark]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 3_TD" height="13" rowSpan="1">
+							<textField>
+								<reportElement mode="Opaque" x="0" y="0" width="66" height="13" backcolor="#FFF9F0" uuid="72212e92-2107-464b-926f-e5687e24a050"/>
+								<textElement textAlignment="Center">
+									<font size="8"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{Range of mark}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="49" uuid="c0a265d7-ec15-4e42-b4c4-e312726c7ba3">
+						<jr:columnHeader style="table 3_CH" height="14" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="48" height="14" backcolor="#FFF9F0" uuid="a3dd51a9-836d-4be9-9f72-633eedbc63a7"/>
+								<textElement textAlignment="Center">
+									<font size="8"/>
+								</textElement>
+								<text><![CDATA[Grade]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 3_TD" height="13" rowSpan="1">
+							<textField>
+								<reportElement mode="Opaque" x="0" y="0" width="48" height="13" backcolor="#FFF9F0" uuid="288c87b7-5604-4bc8-92b1-bb50e5f8b181"/>
+								<textElement textAlignment="Center">
+									<font size="8"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{grade}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="46" uuid="cc94583d-c00d-4c9f-8722-fc1c2ba56bd3">
+						<jr:columnHeader style="table 3_CH" height="14" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="45" height="14" backcolor="#FFF9F0" uuid="3bf5eab6-5560-45d3-ad83-ff4ba935f293"/>
+								<textElement textAlignment="Center">
+									<font size="8"/>
+								</textElement>
+								<text><![CDATA[Point]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 3_TD" height="13" rowSpan="1">
+							<textField>
+								<reportElement mode="Opaque" x="0" y="0" width="45" height="13" backcolor="#FFF9F0" uuid="dedecd50-69b8-44f3-90dc-b36e6f41145d"/>
+								<textElement textAlignment="Center">
+									<font size="8"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{point}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="108" y="496" width="235" height="32" uuid="af3aeae4-9d0a-46a4-a2b4-365950750e4f"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Subjects]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="108" y="528" width="235" height="20" uuid="30fa3acf-ba43-44db-93ff-44628a947a0f"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" "+$F{subject_I}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="343" y="496" width="40" height="32" isPrintWhenDetailOverflows="true" uuid="6b68350d-c5b2-4cec-8540-40cf8f29991e"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Creadit Hour]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="343" y="528" width="40" height="20" uuid="e7899fa3-25e9-4f76-aad2-a65859b81293"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_I_CH}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="466" y="496" width="35" height="32" isPrintWhenDetailOverflows="true" uuid="21170d64-ea2b-4a79-b430-a2429fb14cd8"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Grade Letter]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="466" y="528" width="35" height="20" uuid="ba48c4f0-6cce-4ed0-aaf7-5194bd45dad2"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_I_GL}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="501" y="496" width="36" height="32" isPrintWhenDetailOverflows="true" uuid="28a3cad5-c668-4dea-a9da-ee8f1e363705"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Grade Point]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="501" y="528" width="36" height="20" uuid="9cc68574-99fe-4465-aef5-3a7b598fbbcc"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_I_GP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="108" y="548" width="235" height="20" uuid="76a5c300-0813-461f-808c-a85f07a0612e">
+					<printWhenExpression><![CDATA[$F{subject_II_SC}!=null && $F{subject_II}!=null &&!"".equals($F{subject_II_SC})
+  &&!"".equals($F{subject_II})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" "+$F{subject_II}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="108" y="568" width="235" height="20" uuid="c28a958d-e67b-4628-b719-e79a92957906">
+					<printWhenExpression><![CDATA[$F{subject_III_SC}!=null && $F{subject_III}!=null &&!"".equals($F{subject_III_SC})
+  &&!"".equals($F{subject_III})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" "+$F{subject_III}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="108" y="588" width="235" height="20" uuid="6c42d3ee-da99-4db1-814c-64d44ea864a0">
+					<printWhenExpression><![CDATA[$F{subject_IV_SC}!=null && $F{subject_IV}!=null &&!"".equals($F{subject_IV_SC})
+ &&!"".equals($F{subject_IV})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" "+$F{subject_IV}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="108" y="608" width="235" height="20" uuid="13e696b6-ac5a-4688-babc-a07f77e24457">
+					<printWhenExpression><![CDATA[$F{subject_V_SC}!=null && $F{subject_V}!=null &&!"".equals($F{subject_V_SC})
+ &&!"".equals($F{subject_V})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" "+$F{subject_V}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="108" y="628" width="235" height="20" uuid="9de6e64d-32ef-4c68-a26d-4a5514068a64">
+					<printWhenExpression><![CDATA[$F{subject_VI_SC}!=null && $F{subject_VI}!=null &&!"".equals($F{subject_VI_SC})
+ &&!"".equals($F{subject_VI})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" "+$F{subject_VI}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="108" y="648" width="235" height="20" uuid="be1cc100-9d2d-4580-b53d-5a5a0e89c888">
+					<printWhenExpression><![CDATA[$F{subject_VII_SC}!=null && $F{subject_VII}!=null &&!"".equals($F{subject_VII_SC})
+&&!"".equals($F{subject_VII})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" "+$F{subject_VII}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="108" y="668" width="235" height="20" uuid="1b2b52d1-d7f2-455f-8795-9640507caaa5">
+					<printWhenExpression><![CDATA[$F{subject_VIII_SC}!=null && $F{subject_VII}!=null &&!"".equals($F{subject_VIII_SC})
+&&!"".equals($F{subject_VIII})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" "+$F{subject_VIII}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="108" y="688" width="235" height="20" uuid="7b22d402-fb4a-42f5-96f2-78a87015de4c">
+					<printWhenExpression><![CDATA[$F{subject_IX_SC}!=null && $F{subject_IX}!=null &&!"".equals($F{subject_IX_SC})
+&&!"".equals($F{subject_IX})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" "+$F{subject_IX}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="108" y="708" width="235" height="20" uuid="c566b097-b332-4b15-89d4-b3a56dac5583">
+					<printWhenExpression><![CDATA[$F{subject_X_SC}!=null && $F{subject_X}!=null &&!"".equals($F{subject_X_SC})
+&&!"".equals($F{subject_X})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" "+$F{subject_X}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="466" y="548" width="35" height="20" uuid="414fb3d5-9878-4e96-b829-cd71c1130d53">
+					<printWhenExpression><![CDATA[$F{subject_II_CH}!=null &&$F{subject_II_GL}!=null &&$F{subject_II_GP}!=null &&$F{subject_II_FM} !=null &&$F{subject_II_OB} !=null && !"".equals($F{subject_II_CH}) && !"".equals($F{subject_II_GL})   && !"".equals($F{subject_II_GP}) && !"".equals($F{subject_II_FM})   && !"".equals($F{subject_II_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_II_GL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="343" y="548" width="40" height="20" uuid="61898c3f-a426-4e7e-89e3-70bab4ed3af8">
+					<printWhenExpression><![CDATA[$F{subject_II_CH}!=null &&$F{subject_II_GL}!=null &&$F{subject_II_GP}!=null &&$F{subject_II_FM} !=null &&$F{subject_II_OB} !=null && !"".equals($F{subject_II_CH}) && !"".equals($F{subject_II_GL})   && !"".equals($F{subject_II_GP}) && !"".equals($F{subject_II_FM})   && !"".equals($F{subject_II_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_II_CH}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="501" y="548" width="36" height="20" uuid="fc8eb9f0-2266-410c-a150-32a5f2cfa34e">
+					<printWhenExpression><![CDATA[$F{subject_II_CH}!=null &&$F{subject_II_GL}!=null &&$F{subject_II_GP}!=null &&$F{subject_II_FM} !=null &&$F{subject_II_OB} !=null && !"".equals($F{subject_II_CH}) && !"".equals($F{subject_II_GL})   && !"".equals($F{subject_II_GP}) && !"".equals($F{subject_II_FM})   && !"".equals($F{subject_II_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_II_GP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="466" y="568" width="35" height="20" uuid="537cb203-cf9a-4025-b562-773701a86cc8">
+					<printWhenExpression><![CDATA[$F{subject_III_CH}!=null &&$F{subject_III_GL}!=null &&$F{subject_III_GP}!=null &&$F{subject_III_FM} !=null &&$F{subject_III_OB} !=null && !"".equals($F{subject_III_CH}) && !"".equals($F{subject_III_GL})   && !"".equals($F{subject_III_GP}) && !"".equals($F{subject_III_FM})   && !"".equals($F{subject_III_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_III_GL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="343" y="568" width="40" height="20" uuid="b9b89ed9-ae43-4b46-a35e-ac280239a9bd">
+					<printWhenExpression><![CDATA[$F{subject_III_CH}!=null &&$F{subject_III_GL}!=null &&$F{subject_III_GP}!=null &&$F{subject_III_FM} !=null &&$F{subject_III_OB} !=null && !"".equals($F{subject_III_CH}) && !"".equals($F{subject_III_GL})   && !"".equals($F{subject_III_GP}) && !"".equals($F{subject_III_FM})   && !"".equals($F{subject_III_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_III_CH}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="501" y="568" width="36" height="20" uuid="2bccee15-b479-441f-a318-9fdcd5e82c94">
+					<printWhenExpression><![CDATA[$F{subject_III_CH}!=null &&$F{subject_III_GL}!=null &&$F{subject_III_GP}!=null &&$F{subject_III_FM} !=null &&$F{subject_III_OB} !=null && !"".equals($F{subject_III_CH}) && !"".equals($F{subject_III_GL})   && !"".equals($F{subject_III_GP}) && !"".equals($F{subject_III_FM})   && !"".equals($F{subject_III_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_III_GP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="466" y="588" width="35" height="20" uuid="2606fb6b-e207-4b56-bb21-476b525cf6af">
+					<printWhenExpression><![CDATA[$F{subject_IV_CH}!=null &&$F{subject_IV_GL}!=null &&$F{subject_IV_GP}!=null &&$F{subject_IV_FM} !=null &&$F{subject_IX_OB} !=null && !"".equals($F{subject_IV_CH}) && !"".equals($F{subject_IV_GL})   && !"".equals($F{subject_IV_GP}) && !"".equals($F{subject_IV_FM})   && !"".equals($F{subject_IV_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_IV_GL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="343" y="588" width="40" height="20" uuid="213e3b82-2f0f-430a-a843-9f2791e91056">
+					<printWhenExpression><![CDATA[$F{subject_IV_CH}!=null &&$F{subject_IV_GL}!=null &&$F{subject_IV_GP}!=null &&$F{subject_IV_FM} !=null &&$F{subject_IX_OB} !=null && !"".equals($F{subject_IV_CH}) && !"".equals($F{subject_IV_GL})   && !"".equals($F{subject_IV_GP}) && !"".equals($F{subject_IV_FM})   && !"".equals($F{subject_IV_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_IV_CH}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="501" y="588" width="36" height="20" uuid="9e7ca65b-195d-4815-99c0-b35edf5d2b1e">
+					<printWhenExpression><![CDATA[$F{subject_IV_CH}!=null &&$F{subject_IV_GL}!=null &&$F{subject_IV_GP}!=null &&$F{subject_IV_FM} !=null &&$F{subject_IX_OB} !=null && !"".equals($F{subject_IV_CH}) && !"".equals($F{subject_IV_GL})   && !"".equals($F{subject_IV_GP}) && !"".equals($F{subject_IV_FM})   && !"".equals($F{subject_IV_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_IV_GP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="466" y="608" width="35" height="20" uuid="70820a7e-1c69-4d45-9b0e-dc24e57b1346">
+					<printWhenExpression><![CDATA[$F{subject_V_CH}!=null &&$F{subject_V_GL}!=null &&$F{subject_V_GP}!=null &&$F{subject_V_FM} !=null &&$F{subject_V_OB} !=null && !"".equals($F{subject_V_CH}) && !"".equals($F{subject_V_GL})   && !"".equals($F{subject_V_GP}) && !"".equals($F{subject_V_FM})   && !"".equals($F{subject_V_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_V_GL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="343" y="608" width="40" height="20" uuid="c203b340-ea81-48f6-b526-f4ba84fc538c">
+					<printWhenExpression><![CDATA[$F{subject_V_CH}!=null &&$F{subject_V_GL}!=null &&$F{subject_V_GP}!=null &&$F{subject_V_FM} !=null &&$F{subject_V_OB} !=null && !"".equals($F{subject_V_CH}) && !"".equals($F{subject_V_GL})   && !"".equals($F{subject_V_GP}) && !"".equals($F{subject_V_FM})   && !"".equals($F{subject_V_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_V_CH}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="501" y="608" width="36" height="20" uuid="f2b94bda-6807-410a-bf77-c86f4308151a">
+					<printWhenExpression><![CDATA[$F{subject_V_CH}!=null &&$F{subject_V_GL}!=null &&$F{subject_V_GP}!=null &&$F{subject_V_FM} !=null &&$F{subject_V_OB} !=null && !"".equals($F{subject_V_CH}) && !"".equals($F{subject_V_GL})   && !"".equals($F{subject_V_GP}) && !"".equals($F{subject_V_FM})   && !"".equals($F{subject_V_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_V_GP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="466" y="628" width="35" height="20" uuid="f9d7d169-577b-4d75-9cad-1cfbacb74dd3">
+					<printWhenExpression><![CDATA[$F{subject_VI_CH}!=null &&$F{subject_VI_GL}!=null &&$F{subject_VI_GP}!=null &&$F{subject_VI_FM} !=null &&$F{subject_VI_OB} !=null && !"".equals($F{subject_VI_CH}) && !"".equals($F{subject_VI_GL})   && !"".equals($F{subject_VI_GP}) && !"".equals($F{subject_VI_FM})   && !"".equals($F{subject_VI_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VI_GL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="343" y="628" width="40" height="20" uuid="16a10eae-a228-4414-ade7-0c591a333411">
+					<printWhenExpression><![CDATA[$F{subject_VI_CH}!=null &&$F{subject_VI_GL}!=null &&$F{subject_VI_GP}!=null &&$F{subject_VI_FM} !=null &&$F{subject_VI_OB} !=null && !"".equals($F{subject_VI_CH}) && !"".equals($F{subject_VI_GL})   && !"".equals($F{subject_VI_GP}) && !"".equals($F{subject_VI_FM})   && !"".equals($F{subject_VI_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VI_CH}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="501" y="628" width="36" height="20" uuid="481bf855-478a-48dd-9755-19baa7a1d4a9">
+					<printWhenExpression><![CDATA[$F{subject_VI_CH}!=null &&$F{subject_VI_GL}!=null &&$F{subject_VI_GP}!=null &&$F{subject_VI_FM} !=null &&$F{subject_VI_OB} !=null && !"".equals($F{subject_VI_CH}) && !"".equals($F{subject_VI_GL})   && !"".equals($F{subject_VI_GP}) && !"".equals($F{subject_VI_FM})   && !"".equals($F{subject_VI_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VI_GP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="466" y="648" width="35" height="20" uuid="4fbe30f5-0282-4d00-a3a3-467d05313d9a">
+					<printWhenExpression><![CDATA[$F{subject_VII_CH}!=null &&$F{subject_VII_GL}!=null &&$F{subject_VII_GP}!=null &&$F{subject_VII_FM} !=null &&$F{subject_VII_OB} !=null && !"".equals($F{subject_VII_CH}) && !"".equals($F{subject_VII_GL})   && !"".equals($F{subject_VII_GP}) && !"".equals($F{subject_VII_FM})   && !"".equals($F{subject_VII_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VII_GL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="343" y="648" width="40" height="20" uuid="44a69885-1817-481d-b00a-3181bbe65969">
+					<printWhenExpression><![CDATA[$F{subject_VII_CH}!=null &&$F{subject_VII_GL}!=null &&$F{subject_VII_GP}!=null &&$F{subject_VII_FM} !=null &&$F{subject_VII_OB} !=null && !"".equals($F{subject_VII_CH}) && !"".equals($F{subject_VII_GL})   && !"".equals($F{subject_VII_GP}) && !"".equals($F{subject_VII_FM})   && !"".equals($F{subject_VII_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VII_CH}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="501" y="648" width="36" height="20" uuid="53e68233-a565-404b-ac2a-c9fc5b44c738">
+					<printWhenExpression><![CDATA[$F{subject_VII_CH}!=null &&$F{subject_VII_GL}!=null &&$F{subject_VII_GP}!=null &&$F{subject_VII_FM} !=null &&$F{subject_VII_OB} !=null && !"".equals($F{subject_VII_CH}) && !"".equals($F{subject_VII_GL})   && !"".equals($F{subject_VII_GP}) && !"".equals($F{subject_VII_FM})   && !"".equals($F{subject_VII_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VII_GP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="466" y="668" width="35" height="20" uuid="50734d21-ea49-4bde-83b0-9f433129dc47">
+					<printWhenExpression><![CDATA[$F{subject_VIII_CH}!=null &&$F{subject_VIII_GL}!=null &&$F{subject_VIII_GP}!=null &&$F{subject_VIII_FM} !=null &&$F{subject_VIII_OB} !=null && !"".equals($F{subject_VIII_CH}) && !"".equals($F{subject_VIII_GL})   && !"".equals($F{subject_VIII_GP}) && !"".equals($F{subject_VIII_FM})   && !"".equals($F{subject_VIII_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VIII_GL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="343" y="668" width="40" height="20" uuid="c5f4d7d4-5b39-456e-bb7e-98337c9ff60e">
+					<printWhenExpression><![CDATA[$F{subject_VIII_CH}!=null &&$F{subject_VIII_GL}!=null &&$F{subject_VIII_GP}!=null &&$F{subject_VIII_FM} !=null &&$F{subject_VIII_OB} !=null && !"".equals($F{subject_VIII_CH}) && !"".equals($F{subject_VIII_GL})   && !"".equals($F{subject_VIII_GP}) && !"".equals($F{subject_VIII_FM})   && !"".equals($F{subject_VIII_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VIII_CH}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="501" y="668" width="36" height="20" uuid="ecaba6ed-a3f5-438c-88ac-3b4f51c75f04">
+					<printWhenExpression><![CDATA[$F{subject_VIII_CH}!=null &&$F{subject_VIII_GL}!=null &&$F{subject_VIII_GP}!=null &&$F{subject_VIII_FM} !=null &&$F{subject_VIII_OB} !=null && !"".equals($F{subject_VIII_CH}) && !"".equals($F{subject_VIII_GL})   && !"".equals($F{subject_VIII_GP}) && !"".equals($F{subject_VIII_FM})   && !"".equals($F{subject_VIII_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VIII_GP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="466" y="688" width="35" height="20" uuid="fc9a68a9-dfb8-4d55-a8d8-b79fb71416ed">
+					<printWhenExpression><![CDATA[$F{subject_IX_CH}!=null &&$F{subject_IX_GL}!=null &&$F{subject_IX_GP}!=null &&$F{subject_IX_FM} !=null &&$F{subject_IX_OB} !=null && !"".equals($F{subject_IX_CH}) && !"".equals($F{subject_IX_GL})   && !"".equals($F{subject_IX_GP}) && !"".equals($F{subject_IX_FM})   && !"".equals($F{subject_IX_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_IX_GL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="343" y="688" width="40" height="20" uuid="9bcc6ee0-e375-4864-b8e0-7d4692b6f62d">
+					<printWhenExpression><![CDATA[$F{subject_IX_CH}!=null &&$F{subject_IX_GL}!=null &&$F{subject_IX_GP}!=null &&$F{subject_IX_FM} !=null &&$F{subject_IX_OB} !=null && !"".equals($F{subject_IX_CH}) && !"".equals($F{subject_IX_GL})   && !"".equals($F{subject_IX_GP}) && !"".equals($F{subject_IX_FM})   && !"".equals($F{subject_IX_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_IX_CH}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="501" y="688" width="36" height="20" uuid="2a4dc270-e9e3-454c-931f-fac9181d0242">
+					<printWhenExpression><![CDATA[$F{subject_IX_CH}!=null &&$F{subject_IX_GL}!=null &&$F{subject_IX_GP}!=null &&$F{subject_IX_FM} !=null &&$F{subject_IX_OB} !=null && !"".equals($F{subject_IX_CH}) && !"".equals($F{subject_IX_GL})   && !"".equals($F{subject_IX_GP}) && !"".equals($F{subject_IX_FM})   && !"".equals($F{subject_IX_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_IX_GP}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="466" y="708" width="35" height="20" uuid="74fbd093-406d-48e4-85cf-7ea5effdc1e7">
+					<printWhenExpression><![CDATA[$F{subject_X_CH}!=null &&$F{subject_X_GL}!=null &&$F{subject_X_GP}!=null &&$F{subject_X_FM} !=null &&$F{subject_X_OB} !=null && !"".equals($F{subject_X_CH}) && !"".equals($F{subject_X_GL})   && !"".equals($F{subject_X_GP}) && !"".equals($F{subject_X_FM})   && !"".equals($F{subject_X_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_X_GL}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="343" y="708" width="40" height="20" uuid="34b6bf73-3fd9-428c-9250-6485a7537b9c">
+					<printWhenExpression><![CDATA[$F{subject_X_CH}!=null &&$F{subject_X_GL}!=null &&$F{subject_X_GP}!=null &&$F{subject_X_FM} !=null &&$F{subject_X_OB} !=null && !"".equals($F{subject_X_CH}) && !"".equals($F{subject_X_GL})   && !"".equals($F{subject_X_GP}) && !"".equals($F{subject_X_FM})   && !"".equals($F{subject_X_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_X_CH}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="501" y="708" width="36" height="20" uuid="098e7a1f-34a5-400c-a7d5-c379e91546f3">
+					<printWhenExpression><![CDATA[$F{subject_X_CH}!=null &&$F{subject_X_GL}!=null &&$F{subject_X_GP}!=null &&$F{subject_X_FM} !=null &&$F{subject_X_OB} !=null && !"".equals($F{subject_X_CH}) && !"".equals($F{subject_X_GL})   && !"".equals($F{subject_X_GP}) && !"".equals($F{subject_X_FM})   && !"".equals($F{subject_X_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_X_GP}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="24" y="774" width="56" height="16" isPrintInFirstWholeBand="true" uuid="d61becd3-3cc3-4fb8-8646-eb6c5e14f923"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Written by ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="20" y="776" width="58" height="1" uuid="dfa8d5b7-4e3f-4c69-95a6-a6969db1e83a"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="220" y="774" width="90" height="16" isPrintInFirstWholeBand="true" uuid="fc7c1593-0849-48db-b98c-2dab9ecb6e8e"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Head of the Dept.]]></text>
+			</staticText>
+			<line>
+				<reportElement x="218" y="776" width="90" height="1" uuid="63c07c13-1a9d-4ac0-901e-379b2c58b2f9"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="348" y="776" width="69" height="1" uuid="c3d3091e-f259-4e67-b62f-b1e638f218af"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="350" y="774" width="73" height="16" uuid="931f6f33-101c-4997-b709-9763c89adf7a"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Vice Principal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="460" y="774" width="58" height="16" uuid="72558a34-a2c2-4180-bf57-e5e18ca1e561"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Principal]]></text>
+			</staticText>
+			<line>
+				<reportElement x="450" y="776" width="65" height="1" uuid="9b43b465-4578-4f67-9861-5af22715c513"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="78" y="28" width="429" height="20" uuid="7d005496-f097-4119-9414-2ee8f5b9960f"/>
+				<textElement textAlignment="Center">
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Faculties}+" ("+$F{Semester}+" Semester)"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="528" width="54" height="20" uuid="ab4101d2-895f-4733-8ffd-436a2329f380"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{subject_I_SC}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="54" y="496" width="54" height="32" uuid="e3e41285-5139-4e9b-ab58-cdc91e0d90c7"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Subject Code]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="54" y="548" width="54" height="20" uuid="76df9296-65bd-4868-afe8-95798cd7468f">
+					<printWhenExpression><![CDATA[$F{subject_II_SC}!=null && $F{subject_II}!=null &&!"".equals($F{subject_II_SC})
+  &&!"".equals($F{subject_II})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{subject_II_SC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="588" width="54" height="20" uuid="c2b69b09-1878-43fc-87ea-10c56bb34efb">
+					<printWhenExpression><![CDATA[$F{subject_IV_SC}!=null && $F{subject_IV}!=null &&!"".equals($F{subject_IV_SC})   &&!"".equals($F{subject_IV})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{subject_IV_SC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="568" width="54" height="20" uuid="b904b84e-606d-45d0-a243-4f05393ee6c8">
+					<printWhenExpression><![CDATA[$F{subject_III_SC}!=null && $F{subject_III}!=null &&!"".equals($F{subject_III_SC})   &&!"".equals($F{subject_III})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{subject_III_SC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="608" width="54" height="20" uuid="d88c0392-d192-4678-9068-46e731d74be7">
+					<printWhenExpression><![CDATA[$F{subject_V_SC}!=null && $F{subject_V}!=null &&!"".equals($F{subject_V_SC})   &&!"".equals($F{subject_V})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{subject_V_SC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="628" width="54" height="20" uuid="57a1ffc4-70d0-4972-9ea9-0eb48e81a0f8">
+					<printWhenExpression><![CDATA[$F{subject_VI_SC}!=null && $F{subject_VI}!=null &&!"".equals($F{subject_VI_SC})   &&!"".equals($F{subject_VI})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{subject_VI_SC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="648" width="54" height="20" uuid="45ffa386-1a47-45b3-a1b9-e88fe9be2f2b">
+					<printWhenExpression><![CDATA[$F{subject_VII_SC}!=null && $F{subject_VII}!=null &&!"".equals($F{subject_VII_SC})   &&!"".equals($F{subject_VII})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{subject_VII_SC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="668" width="54" height="20" uuid="b6f211ca-65e0-4eef-9158-28e5b2661392">
+					<printWhenExpression><![CDATA[$F{subject_VIII_SC}!=null && $F{subject_VIII}!=null &&!"".equals($F{subject_VIII_SC})   &&!"".equals($F{subject_VIII})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{subject_VIII_SC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="688" width="54" height="20" uuid="5e7f578b-4a5c-4a4a-90c8-8cfdbb5b4557">
+					<printWhenExpression><![CDATA[$F{subject_IX_SC}!=null && $F{subject_IX}!=null &&!"".equals($F{subject_IX_SC})   &&!"".equals($F{subject_IX})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{subject_IX_SC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="708" width="54" height="20" uuid="22ee0090-7930-4a1b-b074-452e4595fb7b">
+					<printWhenExpression><![CDATA[$F{subject_X_SC}!=null && $F{subject_X}!=null &&!"".equals($F{subject_X_SC})   &&!"".equals($F{subject_X})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{subject_X_SC}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="22" y="496" width="32" height="32" uuid="62270c02-4cbc-4bf2-8c89-17542fb5f2db"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[S.I]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="528" width="32" height="20" uuid="226c6549-21f7-4fb2-81ce-74f92a7582cd"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="548" width="32" height="20" uuid="9713832e-9891-4a4a-850d-16e4876253ae">
+					<printWhenExpression><![CDATA[$F{subject_II_SC}!=null && $F{subject_II}!=null &&!"".equals($F{subject_II_SC})
+  &&!"".equals($F{subject_II})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="568" width="32" height="20" uuid="16ac3eb1-d3c1-4fd6-a87a-e3a894cf2d63">
+					<printWhenExpression><![CDATA[$F{subject_III_SC}!=null && $F{subject_III}!=null &&!"".equals($F{subject_III_SC})
+  &&!"".equals($F{subject_III})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="588" width="32" height="20" uuid="be7fdc11-8976-4ec3-93ed-69fb09ff54af">
+					<printWhenExpression><![CDATA[$F{subject_IV_SC}!=null && $F{subject_IV}!=null &&!"".equals($F{subject_IV_SC})   &&!"".equals($F{subject_IV})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[4]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="608" width="32" height="20" uuid="ac5d4c86-2fdb-4286-a70b-52cb4c41e673">
+					<printWhenExpression><![CDATA[$F{subject_V_SC}!=null && $F{subject_V}!=null &&!"".equals($F{subject_V_SC})   &&!"".equals($F{subject_V})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[5]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="628" width="32" height="20" uuid="0b205a84-dc2e-4d70-b90c-443865edffee">
+					<printWhenExpression><![CDATA[$F{subject_VI_SC}!=null && $F{subject_VI}!=null &&!"".equals($F{subject_VI_SC})   &&!"".equals($F{subject_VI})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[6]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="648" width="32" height="20" uuid="8c428911-3614-4b38-8bfc-d1cc2fd6a9d7">
+					<printWhenExpression><![CDATA[$F{subject_VII_SC}!=null && $F{subject_VII}!=null &&!"".equals($F{subject_VII_SC})   &&!"".equals($F{subject_VII})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[7]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="668" width="32" height="20" uuid="13add366-81a5-48bc-885f-2b8e3dee9f5e">
+					<printWhenExpression><![CDATA[$F{subject_VIII_SC}!=null && $F{subject_VIII}!=null &&!"".equals($F{subject_VIII_SC})   &&!"".equals($F{subject_VIII})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[8]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="688" width="32" height="20" uuid="032ffd6d-9d2a-4a22-93a5-c2aae41a525c">
+					<printWhenExpression><![CDATA[$F{subject_IX_SC}!=null && $F{subject_IX}!=null &&!"".equals($F{subject_IX_SC})   &&!"".equals($F{subject_IX})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[9]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="708" width="32" height="20" uuid="7aa181a6-0308-4d05-82fb-94a28fdfff86">
+					<printWhenExpression><![CDATA[$F{subject_X_SC}!=null && $F{subject_X}!=null &&!"".equals($F{subject_X_SC})   &&!"".equals($F{subject_X})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[10]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="458" y="733" width="30" height="20" uuid="907bb605-3c39-4c9b-be3d-ac5bbd251590"/>
+				<box>
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[GPA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="494" y="733" width="39" height="20" uuid="0c036e41-092e-4d3b-b98a-6b0bfbce7b7a"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Grade}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="383" y="496" width="35" height="32" isPrintWhenDetailOverflows="true" uuid="83e0cdd6-244d-423b-9a49-7f82cd97f366"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Full Marks]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="418" y="496" width="48" height="32" isPrintWhenDetailOverflows="true" uuid="ea9f2703-ea46-4981-b21f-9c3cb3ecbaff"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Obtained Marks]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="418" y="688" width="48" height="20" uuid="4e59dcb1-029d-4ba6-8d1a-8d2429c78921">
+					<printWhenExpression><![CDATA[$F{subject_IX_CH}!=null &&$F{subject_IX_GL}!=null &&$F{subject_IX_GP}!=null &&$F{subject_IX_FM} !=null &&$F{subject_IX_OB} !=null && !"".equals($F{subject_IX_CH}) && !"".equals($F{subject_IX_GL})   && !"".equals($F{subject_IX_GP}) && !"".equals($F{subject_IX_FM})   && !"".equals($F{subject_IX_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_IX_OB}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="418" y="548" width="48" height="20" uuid="73c817cd-288c-476a-8ea7-a25238dfefc2">
+					<printWhenExpression><![CDATA[$F{subject_II_CH}!=null &&$F{subject_II_GL}!=null &&$F{subject_II_GP}!=null &&$F{subject_II_FM} !=null &&$F{subject_II_OB} !=null && !"".equals($F{subject_II_CH}) && !"".equals($F{subject_II_GL})   && !"".equals($F{subject_II_GP}) && !"".equals($F{subject_II_FM})   && !"".equals($F{subject_II_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_II_OB}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="418" y="648" width="48" height="20" uuid="4c0e185e-7b5c-41b7-b097-2446173e3d89">
+					<printWhenExpression><![CDATA[$F{subject_VII_CH}!=null &&$F{subject_VII_GL}!=null &&$F{subject_VII_GP}!=null &&$F{subject_VII_FM} !=null &&$F{subject_VII_OB} !=null && !"".equals($F{subject_VII_CH}) && !"".equals($F{subject_VII_GL})   && !"".equals($F{subject_VII_GP}) && !"".equals($F{subject_VII_FM})   && !"".equals($F{subject_VII_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VII_OB}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="418" y="668" width="48" height="20" uuid="db08fb1a-419f-4dc9-a3cf-ac976f390a84">
+					<printWhenExpression><![CDATA[$F{subject_VIII_CH}!=null &&$F{subject_VIII_GL}!=null &&$F{subject_VIII_GP}!=null &&$F{subject_VIII_FM} !=null &&$F{subject_VIII_OB} !=null && !"".equals($F{subject_VIII_CH}) && !"".equals($F{subject_VIII_GL})   && !"".equals($F{subject_VIII_GP}) && !"".equals($F{subject_VIII_FM})   && !"".equals($F{subject_VIII_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VIII_OB}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="418" y="608" width="48" height="20" uuid="34a5ef5f-eb0d-4bd2-a590-c8b8debdb705">
+					<printWhenExpression><![CDATA[$F{subject_V_CH}!=null &&$F{subject_V_GL}!=null &&$F{subject_V_GP}!=null &&$F{subject_V_FM} !=null &&$F{subject_V_OB} !=null && !"".equals($F{subject_V_CH}) && !"".equals($F{subject_V_GL})   && !"".equals($F{subject_V_GP}) && !"".equals($F{subject_V_FM})   && !"".equals($F{subject_V_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_V_OB}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="383" y="608" width="35" height="20" uuid="7c9d2174-e34d-444c-bb13-e9b6345b96a2">
+					<printWhenExpression><![CDATA[$F{subject_V_CH}!=null &&$F{subject_V_GL}!=null &&$F{subject_V_GP}!=null &&$F{subject_V_FM} !=null &&$F{subject_V_OB} !=null && !"".equals($F{subject_V_CH}) && !"".equals($F{subject_V_GL})   && !"".equals($F{subject_V_GP}) && !"".equals($F{subject_V_FM})   && !"".equals($F{subject_V_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_V_FM}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="383" y="668" width="35" height="20" uuid="c657f800-d9ae-40d0-b380-aa254ead21d5">
+					<printWhenExpression><![CDATA[$F{subject_VIII_CH}!=null &&$F{subject_VIII_GL}!=null &&$F{subject_VIII_GP}!=null &&$F{subject_VIII_FM} !=null &&$F{subject_VIII_OB} !=null && !"".equals($F{subject_VIII_CH}) && !"".equals($F{subject_VIII_GL})   && !"".equals($F{subject_VIII_GP}) && !"".equals($F{subject_VIII_FM})   && !"".equals($F{subject_VIII_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VIII_FM}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="383" y="688" width="35" height="20" uuid="e84185d8-80f9-474c-b3e0-0c51174a5817">
+					<printWhenExpression><![CDATA[$F{subject_IX_CH}!=null &&$F{subject_IX_GL}!=null &&$F{subject_IX_GP}!=null &&$F{subject_IX_FM} !=null &&$F{subject_IX_OB} !=null && !"".equals($F{subject_IX_CH}) && !"".equals($F{subject_IX_GL})   && !"".equals($F{subject_IX_GP}) && !"".equals($F{subject_IX_FM})   && !"".equals($F{subject_IX_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_IX_FM}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="383" y="628" width="35" height="20" uuid="c084f5e4-03dc-466c-bb1b-d66ace2d255f">
+					<printWhenExpression><![CDATA[$F{subject_VI_CH}!=null &&$F{subject_VI_GL}!=null &&$F{subject_VI_GP}!=null &&$F{subject_VI_FM} !=null &&$F{subject_VI_OB} !=null && !"".equals($F{subject_VI_CH}) && !"".equals($F{subject_VI_GL})   && !"".equals($F{subject_VI_GP}) && !"".equals($F{subject_VI_FM})   && !"".equals($F{subject_VI_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VI_FM}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="383" y="568" width="35" height="20" uuid="b775fccd-83e4-49e2-8c29-79eb24af53da">
+					<printWhenExpression><![CDATA[$F{subject_III_CH}!=null &&$F{subject_III_GL}!=null &&$F{subject_III_GP}!=null &&$F{subject_III_FM} !=null &&$F{subject_III_OB} !=null && !"".equals($F{subject_III_CH}) && !"".equals($F{subject_III_GL})   && !"".equals($F{subject_III_GP}) && !"".equals($F{subject_III_FM})   && !"".equals($F{subject_III_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_III_FM}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="383" y="528" width="35" height="20" uuid="cf6a4a0a-0366-4d42-a2bc-2c9c99a8a67d"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_I_FM}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="383" y="708" width="35" height="20" uuid="539c704b-3e52-42c6-a134-b0459dcf3084">
+					<printWhenExpression><![CDATA[$F{subject_X_CH}!=null &&$F{subject_X_GL}!=null &&$F{subject_X_GP}!=null &&$F{subject_X_FM} !=null &&$F{subject_X_OB} !=null && !"".equals($F{subject_X_CH}) && !"".equals($F{subject_X_GL})   && !"".equals($F{subject_X_GP}) && !"".equals($F{subject_X_FM})   && !"".equals($F{subject_X_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_X_FM}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="418" y="528" width="48" height="20" uuid="7772eb40-3dc2-4f81-8095-7ce3f1702c9f"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_I_OB}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="418" y="628" width="48" height="20" uuid="ca8167dc-fa6f-4157-9bd7-4552c659ae9b">
+					<printWhenExpression><![CDATA[$F{subject_VI_CH}!=null &&$F{subject_VI_GL}!=null &&$F{subject_VI_GP}!=null &&$F{subject_VI_FM} !=null &&$F{subject_VI_OB} !=null && !"".equals($F{subject_VI_CH}) && !"".equals($F{subject_VI_GL})   && !"".equals($F{subject_VI_GP}) && !"".equals($F{subject_VI_FM})   && !"".equals($F{subject_VI_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VI_OB}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="418" y="708" width="48" height="20" uuid="354c453d-a2a9-468c-b7e7-9307cf3447d2">
+					<printWhenExpression><![CDATA[$F{subject_X_CH}!=null &&$F{subject_X_GL}!=null &&$F{subject_X_GP}!=null &&$F{subject_X_FM} !=null &&$F{subject_X_OB} !=null && !"".equals($F{subject_X_CH}) && !"".equals($F{subject_X_GL})   && !"".equals($F{subject_X_GP}) && !"".equals($F{subject_X_FM})   && !"".equals($F{subject_X_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_X_OB}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="418" y="588" width="48" height="20" uuid="cb3fce76-f83b-463c-8a23-6da240f6e774">
+					<printWhenExpression><![CDATA[$F{subject_IV_CH}!=null &&$F{subject_IV_GL}!=null &&$F{subject_IV_GP}!=null &&$F{subject_IV_FM} !=null &&$F{subject_IX_OB} !=null && !"".equals($F{subject_IV_CH}) && !"".equals($F{subject_IV_GL})   && !"".equals($F{subject_IV_GP}) && !"".equals($F{subject_IV_FM})   && !"".equals($F{subject_IV_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_IV_OB}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="418" y="568" width="48" height="20" uuid="429eb1d4-889a-48d7-b0c0-33c2b5860355">
+					<printWhenExpression><![CDATA[$F{subject_III_CH}!=null &&$F{subject_III_GL}!=null &&$F{subject_III_GP}!=null &&$F{subject_III_FM} !=null &&$F{subject_III_OB} !=null && !"".equals($F{subject_III_CH}) && !"".equals($F{subject_III_GL})   && !"".equals($F{subject_III_GP}) && !"".equals($F{subject_III_FM})   && !"".equals($F{subject_III_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_III_OB}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="383" y="588" width="35" height="20" uuid="2324273a-16c6-4239-80b6-2af44fe40d48">
+					<printWhenExpression><![CDATA[$F{subject_IV_CH}!=null &&$F{subject_IV_GL}!=null &&$F{subject_IV_GP}!=null &&$F{subject_IV_FM} !=null &&$F{subject_IX_OB} !=null && !"".equals($F{subject_IV_CH}) && !"".equals($F{subject_IV_GL})   && !"".equals($F{subject_IV_GP}) && !"".equals($F{subject_IV_FM})   && !"".equals($F{subject_IV_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_IV_FM}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="383" y="648" width="35" height="20" uuid="bbce2c98-70cc-4490-9603-194cfc27aaa3">
+					<printWhenExpression><![CDATA[$F{subject_VII_CH}!=null &&$F{subject_VII_GL}!=null &&$F{subject_VII_GP}!=null &&$F{subject_VII_FM} !=null &&$F{subject_VII_OB} !=null && !"".equals($F{subject_VII_CH}) && !"".equals($F{subject_VII_GL})   && !"".equals($F{subject_VII_GP}) && !"".equals($F{subject_VII_FM})   && !"".equals($F{subject_VII_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_VII_FM}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="383" y="548" width="35" height="20" uuid="e06dfbe7-f232-4843-9473-fa72292365e5">
+					<printWhenExpression><![CDATA[$F{subject_II_CH}!=null &&$F{subject_II_GL}!=null &&$F{subject_II_GP}!=null &&$F{subject_II_FM} !=null &&$F{subject_II_OB} !=null && !"".equals($F{subject_II_CH}) && !"".equals($F{subject_II_GL})   && !"".equals($F{subject_II_GP}) && !"".equals($F{subject_II_FM})   && !"".equals($F{subject_II_OB})]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject_II_FM}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="110" y="774" width="73" height="16" isPrintInFirstWholeBand="true" uuid="af925e60-480c-4f8a-b368-b4f99da7b209"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Compared by ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="108" y="776" width="70" height="1" uuid="f7de5f92-6521-4253-b156-ab9cbb7c319e"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="170" y="240" width="228" height="20" uuid="57ac14d2-9a6b-4e04-a7ce-c6f1fb1281bb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Type}+" ACADEMIC TRANSCRIPT"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="125" y="359" width="244" height="16" uuid="9ff83fab-be4a-4c61-b462-82065923b98e"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Faculties}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
